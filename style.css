@@ -1,8 +1,4 @@
 .num-100{
-    background-color: black;
     display: grid;
-    justify-content: space-around;
-    grid-template-columns: auto auto auto auto auto;
-    gap: 10px;
-    border: 1px solid black;
+    justify-content: space-between;
 }

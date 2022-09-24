@@ -1,3 +1,14 @@
+let div = document.querySelector('.num-100');
+// let div = document.getElementById('divContainer');
+div.style.backgroundColor = 'black';
+// div.style.dislay = 'grid'; (I DON'T KNOW WHY THIS IS NOT WORKING, SO I HAVE TO USE CSS FOR IT.)
+// div.style.justifyContent = 'spaceAround'; (I DON'T KNOW WHY THIS IS NOT WORKING, SO I HAVE TO USE CSS FOR IT.)
+div.style.gap = '10px';
+div.style.gridTemplateColumns = 'auto auto auto auto auto';
+div.style.border = '10px solid red';
+div.style.borderRadius = '30px';
+div.style.paddingLeft = '50px';
+div.style.paddingRight = '50px';
 for(i = 1; i <= 100; i++){
     let values100 = document.createElement('h1');
     values100.style.textAlign = 'center';
@@ -18,6 +29,4 @@ for(i = 1; i <= 100; i++){
     values100.style.backgroundColor = 'yellow';
   };
   };
-  /*<div class="num-100" id="divContainer">
-       
-    </div>*/
+ 
