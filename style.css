@@ -1,4 +1,26 @@
+.even{
+    background-color: green;
+    border: solid 1px;
+    padding: 40px;
+    text-align: center;
+    margin: 10px;
+    font-size: 50px;
+}
+.odd{
+    background-color: yellow;
+    border: solid 1px;
+    padding: 40px;
+    text-align: center;
+    margin: 10px;
+    font-size: 50px;
+}
 .num-100{
+    background-color: white;
     display: grid;
-    justify-content: space-between;
+    grid-template-columns: auto auto auto auto auto;
+    border: 5px solid black;
+    border-radius: 10px;
+    padding: 50px;
+
+
 }
