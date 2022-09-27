@@ -1,5 +1,5 @@
 .even{
-    background-color: green;
+    background-color: limegreen;
     border: solid 1px;
     padding: 40px;
     text-align: center;
@@ -21,6 +21,4 @@
     border: 5px solid black;
     border-radius: 10px;
     padding: 50px;
-
-
-}
+};
